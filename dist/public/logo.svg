@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(10, 10)">
+    <circle cx="30" cy="30" r="28" fill="url(#logo-grad)" opacity="0.15" />
+    <circle cx="30" cy="30" r="22" fill="none" stroke="url(#logo-grad)" stroke-width="2" stroke-dasharray="4 2" />
+    <path d="M30 12 C20 12, 14 18, 14 28 C14 38, 30 48, 30 48 C30 48, 46 38, 46 28 C46 18, 40 12, 30 12 Z" fill="url(#logo-grad)" />
+    <circle cx="30" cy="26" r="6" fill="#ffffff" />
+  </g>
+  
+  <text x="80" y="38" font-family="'Playfair Display', 'Poppins', sans-serif" font-size="24" font-weight="800" fill="#0f172a">Mi Punto</text>
+  <text x="80" y="58" font-family="'Poppins', sans-serif" font-size="14" font-weight="600" fill="#64748b" letter-spacing="1.5">EN EL MAPA</text>
+</svg>
