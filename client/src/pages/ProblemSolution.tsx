@@ -63,7 +63,7 @@ export default function ProblemSolution() {
           <p className="text-sm md:text-base font-semibold text-purple-600 uppercase tracking-wide mb-3">
             Tu Desafío, Nuestra Solución
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="font-bold mb-4" style={{ fontSize: 'clamp(1.875rem, 4vw, 3rem)' }}>
             <span className="text-gradient">Sabemos exactamente</span> lo que necesitas
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">

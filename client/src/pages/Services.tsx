@@ -77,7 +77,7 @@ export default function Services() {
           <p className="text-sm md:text-base font-semibold text-purple-300 uppercase tracking-wide mb-3">
             Lo Que Incluye Nuestro Servicio
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="font-bold mb-4" style={{ fontSize: "clamp(1.875rem, 4vw, 3rem)" }}>
             Gestión Completa de Redes Sociales
           </h2>
           <p className="text-lg text-purple-100 max-w-2xl mx-auto">

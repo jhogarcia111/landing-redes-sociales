@@ -40,15 +40,15 @@ export default function Hero() {
 
             {/* Main Headline */}
             <div className="space-y-4">
-              <p className="text-sm md:text-base font-semibold text-purple-600 uppercase tracking-wide">
+              <p className="font-semibold text-purple-600 uppercase tracking-wide" style={{ fontSize: 'clamp(0.875rem, 2vw, 1rem)' }}>
                 Gestión de Redes Sociales
               </p>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="font-bold leading-tight" style={{ fontSize: 'clamp(1.875rem, 5vw, 3.75rem)' }}>
                 <span className="text-gradient">Crece en Redes Sociales</span>
                 <br />
                 <span className="text-slate-900">sin complicaciones</span>
               </h1>
-              <p className="text-lg md:text-xl text-slate-600 leading-relaxed max-w-xl">
+              <p className="text-slate-600 leading-relaxed max-w-xl" style={{ fontSize: 'clamp(1rem, 2vw, 1.25rem)' }}>
                 Nos encargamos de tu estrategia, contenido y publicaciones. Tú solo enfócate en tu negocio mientras generamos resultados reales.
               </p>
             </div>
