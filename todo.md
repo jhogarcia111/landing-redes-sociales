@@ -52,6 +52,13 @@
 - [x] Optimizar imágenes y assets (comprimir logo PNG)
 - [x] Verificar SEO básico (meta tags, headings)
 
+## Correcciones y Mejoras
+- [x] Corregir errores de Tailwind CSS en index.css
+- [x] Reemplazar clases responsivas con CSS puro (clamp)
+- [x] Agregar sección de Calendly con iframe embebido
+- [x] Verificar que el video de YouTube está cargando correctamente
+- [x] Actualizar todos los enlaces de WhatsApp con número real
+
 ## Entrega
 - [x] Crear checkpoint del proyecto
 - [x] Documentar instrucciones de uso

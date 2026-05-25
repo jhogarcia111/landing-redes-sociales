@@ -73,7 +73,7 @@ export default function Benefits() {
           <p className="text-sm md:text-base font-semibold text-purple-600 uppercase tracking-wide mb-3">
             Resultados Que Importan
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="font-bold mb-4" style={{ fontSize: "clamp(1.875rem, 4vw, 3rem)" }}>
             Beneficios que transforman tu negocio
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
@@ -105,7 +105,7 @@ export default function Benefits() {
 
                 {/* Stat Number */}
                 <div className="mb-4">
-                  <p className="text-3xl md:text-4xl font-bold text-gradient">{benefit.stat}</p>
+                  <p className="font-bold text-gradient" style={{ fontSize: "clamp(1.875rem, 3vw, 2.25rem)" }}>{benefit.stat}</p>
                 </div>
 
                 {/* Title */}
@@ -123,7 +123,7 @@ export default function Benefits() {
 
         {/* Social Proof */}
         <div className="mt-16 md:mt-20 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 md:p-12 text-white text-center">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">
+          <h3 className="font-bold mb-4" style={{ fontSize: "clamp(1.5rem, 3vw, 1.875rem)" }}>
             Confían en nosotros cientos de emprendedores
           </h3>
           <p className="text-purple-100 mb-8 max-w-2xl mx-auto">

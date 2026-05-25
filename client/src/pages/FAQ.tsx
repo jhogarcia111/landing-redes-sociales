@@ -88,7 +88,7 @@ export default function FAQ() {
           <p className="text-sm md:text-base font-semibold text-purple-600 uppercase tracking-wide mb-3">
             Preguntas Frecuentes
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+          <h2 className="font-bold mb-4" style={{ fontSize: "clamp(1.875rem, 4vw, 3rem)" }}>
             Resolvemos tus dudas
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">

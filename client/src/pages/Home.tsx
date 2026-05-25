@@ -4,6 +4,7 @@ import Services from './Services';
 import Pricing from './Pricing';
 import Benefits from './Benefits';
 import FAQ from './FAQ';
+import CalendlySection from './Calendly';
 import Footer from './Footer';
 
 export default function Home() {
@@ -60,6 +61,9 @@ export default function Home() {
         </section>
         <section id="faq">
           <FAQ />
+        </section>
+        <section id="agendar">
+          <CalendlySection />
         </section>
       </main>
 
