@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/excelpar/redessociales.excelparaejecutivos.net
+    - /bin/rsync -avz --exclude '.git' --exclude 'node_modules' dist/public/ $DEPLOYPATH
