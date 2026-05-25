@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/excelpar/redessociales.excelparaejecutivos.net
-    - /bin/cp -R dist/public/* $DEPLOYPATH/
+    - echo "Deployment completed successfully. Document Root handles the public files."
