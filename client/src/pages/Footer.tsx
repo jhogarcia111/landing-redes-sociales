@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-1">
             <div className="mb-6">
               <img
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Mi Punto en el Mapa"
                 className="h-12 w-auto"
               />

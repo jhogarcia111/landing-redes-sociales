@@ -32,7 +32,7 @@ export default function Hero() {
             {/* Logo Badge */}
             <div className="inline-flex items-center space-x-2 w-fit">
               <img
-                src="/logo.svg"
+                src="/logo.png"
                 alt="Mi Punto en el Mapa"
                 className="h-12 md:h-16 w-auto"
               />
