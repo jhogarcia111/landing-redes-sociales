@@ -10,12 +10,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-12">
           {/* Brand Section */}
           <div className="col-span-1 md:col-span-1">
-            <div className="mb-6">
+            <div className="flex items-center gap-3 mb-6">
               <img
                 src="/logo.png"
                 alt="Mi Punto en el Mapa"
-                className="h-12 w-auto"
+                className="h-12 w-12 object-contain"
               />
+              <div className="flex flex-col text-left">
+                <span className="font-bold text-white text-lg leading-none" style={{ fontFamily: "'Playfair Display', serif" }}>Mi Punto</span>
+                <span className="text-[10px] font-bold text-slate-400 tracking-wider uppercase leading-none mt-1" style={{ fontFamily: "'Poppins', sans-serif" }}>en el Mapa</span>
+              </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Tu aliado estratégico en gestión de redes sociales. Transformamos tu presencia digital en resultados reales.

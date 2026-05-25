@@ -13,12 +13,16 @@ export default function Home() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-2">
+          <a href="#" className="flex items-center gap-3">
             <img
               src="/logo.png"
               alt="Mi Punto en el Mapa"
-              className="h-8 w-auto"
+              className="h-10 w-10 object-contain"
             />
+            <div className="flex flex-col text-left">
+              <span className="font-bold text-slate-900 text-lg leading-none" style={{ fontFamily: "'Playfair Display', serif" }}>Mi Punto</span>
+              <span className="text-[10px] font-bold text-slate-500 tracking-wider uppercase leading-none mt-1" style={{ fontFamily: "'Poppins', sans-serif" }}>en el Mapa</span>
+            </div>
           </a>
           <div className="hidden md:flex items-center gap-8">
             <a href="#hero" className="text-slate-600 hover:text-slate-900 transition-colors text-sm font-medium">

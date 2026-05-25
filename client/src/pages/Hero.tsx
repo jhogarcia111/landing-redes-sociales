@@ -29,15 +29,6 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
           <div className="flex flex-col justify-center space-y-6 md:space-y-8 animate-slide-in-left">
-            {/* Logo Badge */}
-            <div className="inline-flex items-center space-x-2 w-fit">
-              <img
-                src="/logo.png"
-                alt="Mi Punto en el Mapa"
-                className="h-12 md:h-16 w-auto"
-              />
-            </div>
-
             {/* Main Headline */}
             <div className="space-y-4">
               <p className="font-semibold text-purple-600 uppercase tracking-wide" style={{ fontSize: 'clamp(0.875rem, 2vw, 1rem)' }}>
